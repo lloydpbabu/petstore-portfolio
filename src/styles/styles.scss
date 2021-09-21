@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import "sizing.scss";
+
+html, body { height: 100%; }
+body { margin: 0; }
+
+@font-face {
+    font-family: $fsz-font-family;
+    src: url("../assets/fonts/Anton/Anton-Regular.ttf") format("woff");
+    font-style: normal;
+    font-display: swap;
+}
